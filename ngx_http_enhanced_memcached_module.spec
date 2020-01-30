@@ -4,7 +4,7 @@
 #
 Name     : ngx_http_enhanced_memcached_module
 Version  : b58a4500db3c4ee274be54a18abc767219dcfd36
-Release  : 5
+Release  : 6
 URL      : https://github.com/bpaquet/ngx_http_enhanced_memcached_module/archive/b58a4500db3c4ee274be54a18abc767219dcfd36.tar.gz
 Source0  : https://github.com/bpaquet/ngx_http_enhanced_memcached_module/archive/b58a4500db3c4ee274be54a18abc767219dcfd36.tar.gz
 Summary  : No detailed summary available
@@ -28,6 +28,7 @@ lib components for the ngx_http_enhanced_memcached_module package.
 
 %prep
 %setup -q -n ngx_http_enhanced_memcached_module-b58a4500db3c4ee274be54a18abc767219dcfd36
+cd %{_builddir}/ngx_http_enhanced_memcached_module-b58a4500db3c4ee274be54a18abc767219dcfd36
 
 %build
 export http_proxy=http://127.0.0.1:9/
